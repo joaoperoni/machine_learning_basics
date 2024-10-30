@@ -45,3 +45,18 @@ Efetuar o cálculo da quantidade de litros de combustível gasto em uma viagem, 
 
 ### Exercicio 5
 
+Crie um arquivo .py com duas funções
+- Função para ler um string (recebe como parâmetro uma mensagem e retorna o que o usuário digitou)
+- Função para ler um número float (recebe como parâmetro uma mensagem e retorna o que o usuário digitou)
+
+### Exercicio 6
+
+Crie uma lista vazia e faça a leitura de dois valores do tipo float, colocando cada um dos valores nas primeiras posições da lista (o valor1 ficará na posição 0 da lista e o valor2 ficará na posição 1 da lista). Faça a divisão dos dois valores e trate as seguintes exceções:
+- ValueError: se o usuário digitar um caracter
+- ZeroDivisionError: se o usuário digitar zero e ocorrer erro na divisão
+- IndexError: caso a divisão seja feita levando em consideração posições que não existem na lista
+- KeyboardInterrupt: caso o usuário interrompa a execução
+
+
+
+Mostre uma mensagem personalizada na ocorrência de cada um desses erros
