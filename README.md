@@ -57,6 +57,38 @@ Crie uma lista vazia e faça a leitura de dois valores do tipo float, colocando 
 - IndexError: caso a divisão seja feita levando em consideração posições que não existem na lista
 - KeyboardInterrupt: caso o usuário interrompa a execução
 
+### Exercicio 7
+
+Considerando o dicionário com o nome dos alunos e suas respectivas notas abaixo, crie uma estrutura de repetição para percorrer cada elemento do dicionário para gravar cada aluno em um novo arquivo de texto
+- Cada aluno deve ocupar uma linha do novo arquivo de texto
+- O formato deve ser: nome,nota (Pedro,8.0)
+- Após a criação do arquivo de texto, faça a leitura do arquivo e mostre todos os alunos
+
+alunos = {'Pedro': 8.0, 'Maria': 10.0, 'Amilton': 7.5}
+
+### Exercicio 8
+
+Crie expressões regulares para extrair as seguintes informações do texto abaixo (use a função findall):
+- Números
+- CEPs
+- URLs
+
+texto = " Minha casa fica na rua Carneiro,78. O CEP é 86388-000 e o meu site é https://www.iaexpert.academy"
 
 
-Mostre uma mensagem personalizada na ocorrência de cada um desses erros
+### Exercicio 9
+
+Crie uma classe chamada aluno com os seguintes atributos:
+- Nome
+- Nota 1
+- Nota 2
+- Crie um construtor para a classe (__init__)
+
+
+
+Crie as seguintes funções (métodos):
+- Calcula média, retornando a média aritmética entre as notas
+- Mostra dados, que somente imprime o valor de todos os atributos
+- Resultado, que verifica se o aluno está aprovado ou reprovado (se a média for maior ou igual a 6.0, o aluno está aprovado)
+
+Crie dois objetos (aluno1 e aluno2) e teste as funções
